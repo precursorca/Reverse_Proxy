@@ -15,9 +15,9 @@ This version of the tutorial has been tested on macOS 27 Golden Gate. For earlie
 <img width="423" height="220" alt="Tutorial_Versions" src="https://github.com/user-attachments/assets/070d8948-fe7f-468c-ab7a-ce8578d88058" />
 
 Revision History:
-3.17 Oct/1/26. Tested on Tahoe and Golden Gate Updates to docs to mention Golden Gate. Added Appendix C for notes on Google
+- 3.17 Oct/1/26. Tested on Tahoe and Golden Gate Updates to docs to mention Golden Gate. Added Appendix C for notes on Google
 Chrome balking on self-signed certs.
-3.16 Oct/24/24. Tested on Sequoia. Updates to docs to mention Sequoia. Correct Site File permissions after deployment. Add home-
+- 3.16 Oct/24/24. Tested on Sequoia. Updates to docs to mention Sequoia. Correct Site File permissions after deployment. Add home-
 bridge.conf for Synology homebridge. Add Paul Royse methods for FileMaker Websockets and Azure Oauth to FileMaker.conf
 3.15 Jan/30/22. Fix permissions on Site files. Add better rewrite rule for https. Add ProxyRemote directive for same computer site files
 3.14 Oct/3/20. Update ProxyTimeout for Kerio to avoid ActiveSync errors. Rewrite SSL Certificate instructions (Appendix A).
