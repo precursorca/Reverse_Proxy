@@ -1,16 +1,10 @@
 # Reverse_Proxy
 Instructions for setting up reverse proxy on macOS-native Apache
 
-In smaller organizations, it may be necessary to run more than one server on the same
-computer or run more than one server behind a single WAN i.p. address. When macOS
-Server was a thing, this guide helped run multiple server apps/appliances like FileMaker
-Server, Kerio Connect, Maxum Rumpus and Synology NAS on the same computer/net-
-work as macOS Server.*
+In smaller organizations, it may be necessary to run more than one server on the same computer or run more than one server behind a single WAN i.p. address. When macOS Server was a thing, this guide helped run multiple server apps/appliances like FileMaker Server, Kerio Connect, Maxum Rumpus and Synology NAS on the same computer/network as macOS Server.*
 
-When macOS Server stopped providing web services (in 10.14 Mojave) I still had some or-
-ganizations using Reverse Proxy who needed to upgrade the OS for security and other
-reasons. So I have developed this guide to do Reverse Proxy using the native Apache web
-server built into every macOS from Mojave to macOS 27 Golden Gate.
+When macOS Server stopped providing web services (in 10.14 Mojave) I still had some organizations using Reverse Proxy who needed to upgrade the OS for security and other
+reasons. So I have developed this guide to do Reverse Proxy using the native Apache web server built into every macOS from Mojave to macOS 27 Golden Gate.
 
 *Not saying it is "Best Practices", nor that we recommend it; just saying you can do it.
 
