@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- See man pages for webapp.plist(5) and webappctl(8) for information about this example webapp.plist -->
+
+<plist version="1.0">
+<dict> 
+	<key>includeFiles</key>
+	<array>		<!-- Include files are activated in virtual host when webapp is started -->
+		<string>/Library/Server/Web/Config/apache2/httpd_kerioSSLwebapp.conf</string>
+	</array>
+	<key>name</key>
+	<string>ca.precursor.kerioSSLwebapp</string>
+	<key>displayName</key>		<!-- Name shown in Server app -->
+	<string>kerioSSLWebApp</string>
+	<key>installationIndicatorFilePath</key>	<!-- The presence of this file indicates web app is installed -->
+	<string>/Library/Server/Web/Config/apache2/httpd_kerioSSLwebapp.conf</string>
+	<key>sslPolicy</key>	<!-- Determines webapp SSL behavior -->
+	<integer>0</integer>	<!-- 0: default, UseSSLWhenEnabled -->
+			<!-- 1:	UseSSLAlways -->
+			<!-- 2:	UseSSLOnlyWhenCertificateIsTrustable -->
+			<!-- 3:	UseSSLNever -->
+			<!-- 4:	UseSSLAndNonSSL -->
+</dict>
+</plist>
